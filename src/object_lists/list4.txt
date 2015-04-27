@@ -1,0 +1,67 @@
+rosemary_olive_oil rosemary olive oil
+olive_oil olive oil
+canola_oil canola oil
+vinegar vinegar
+garlic_salt garlic salt 
+garlic garlic garlic
+soy_sauce soy sauce
+long_grain_rice long grain rice
+short_grain_rice short grain rice
+pasta pasta
+dried_beans dried beans
+canned_beans canned beans
+frozen_beans frozen beans
+bay_leaves bay leaves
+black_pepper black pepper
+hot_pepper hot pepper
+cayenne cayenne
+chili_powder chili powder
+cinnamon cinnamon
+cloves cloves
+cream_of_tarter cream tarter
+cumin cumin
+curry_powder curry powder
+nutmeg nutmeg
+oregano oregano
+paprika paprika
+rosemary
+sesame_seeds
+thyme thyme
+all-purpose_flour all purpose all-purpose flour
+whole_wheat_flour whole wheat flour
+cornmeal cornmeal
+canned_tomatoes canned tomatoes
+vegetable_stock vegetable stock
+chicken_stock chicken stock
+onion onion onions
+shallot shallot shallots
+celery celery
+carrot carrot carrots
+dried_mushrooms dried mushrooms
+parmesan_cheese parmesan cheese
+peanuts peanut peanuts
+walnuts walnuts
+almonds almonds
+lemon lemon
+lime lime
+white_sugar white sugar
+brown_sugar brown sugar
+honey honey
+maple_syrup maple syrup
+potatoe potatoes potato
+apple apple apples
+orange oranage oranges
+ketchup ketchup
+mustard mustard
+salsa salsa
+mayonnaise mayonnaise
+chocolate chocolate
+butter butter
+eggs egg eggs
+vanilla vanilla extract
+salt salt
+artichokes artichokes
+parsley parsley
+bread_crumbs bread crumbs breadcrumbs
+carduni carduni
+pancake_mix pancake mix

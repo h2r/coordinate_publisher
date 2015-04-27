@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="tf"
+          type="static_transform_publisher"
+          name="openni_tf_broadcaster"
+          args="0.027 -0.030 0.807 -0.026 0.161 0.076 0.984 /reference/base /openni_link 10"
+    />
+</launch>
