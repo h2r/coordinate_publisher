@@ -17,7 +17,7 @@ global right_arm_origin
 global left_arm_point
 global right_arm_point
 global frame
-frame = "/reference/base"
+frame = "/base"
 
 def sub_vec(v1,v2):
     ret = []
