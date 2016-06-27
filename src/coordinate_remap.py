@@ -17,7 +17,7 @@ global right_arm_origin
 global left_arm_point
 global right_arm_point
 global frame
-frame = "/reference/base"
+frame = "/base"
 
 def sub_vec(v1,v2):
     ret = []
@@ -66,6 +66,7 @@ def fill_points(tfl):
         left_arm_point = add_vec(to_left_hand, sub_vec(to_left_hand, to_left_elbow))
         right_arm_origin = to_right_hand
         right_arm_point = add_vec(to_right_hand, sub_vec(to_right_hand, to_right_elbow))
+        head_origin = to_head
         return True
     except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
         left_arm_point = None
@@ -90,6 +91,7 @@ def main():
             ro = Point()
             lp = Point()
             rp = Point()
+            ho = Point() 
             rp.x = right_arm_point[0]
             rp.y = right_arm_point[1]
             rp.z = right_arm_point[2]
@@ -102,7 +104,10 @@ def main():
             lo.x = left_arm_origin[0]
             lo.y = left_arm_origin[1]
             lo.z = left_arm_origin[2]
-            array_publisher.publish((lo, ro, lp, rp))
+            ho.x = head_origin[0]
+            ho.y = head_origin[1]
+            ho.z = head_origin[2]
+            array_publisher.publish((lo, ro, lp, rp, ho))
         rate.sleep()
 
 
